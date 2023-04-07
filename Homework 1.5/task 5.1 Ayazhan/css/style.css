@@ -1,0 +1,21 @@
+.popup{
+  width: 400px;
+  padding: 20px;
+  background-color: yellow;
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 5px 5px 10px #000;
+}
+.close{
+  top: 3px;
+  right: 3px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background:red;
+  color: white;
+
+}
